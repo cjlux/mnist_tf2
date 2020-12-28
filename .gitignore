@@ -13,4 +13,6 @@ weights/
 models/
 
 .vscode/
+model.png
+activationFunctions.png
 
