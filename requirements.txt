@@ -1,6 +1,6 @@
 # requirements based on Ubuntu 20 with ros-noetic installed
  
-python >= 3.8.5
+python3 >= 3.8.5
 jupyter
 numpy == 1.19.2 
 scipy
