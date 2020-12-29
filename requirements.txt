@@ -1,12 +1,10 @@
-# requirements based on Ubuntu 20 with ros-noetic installed
- 
-python3 >= 3.8.5
+# requirements based on Ubuntu 20 with python3.8.5 and ros-noetic already installed
 jupyter
 numpy == 1.19.2 
 scipy
 matplotlib
 pandas
-testressources
+testresources
 tensorflow == 2.4.0
 sklearn
 seaborn
