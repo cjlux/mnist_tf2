@@ -11,9 +11,9 @@ def plot_loss_accuracy(history):
     plt.figure(figsize=(15,5))
     ax1 = plt.subplot(1,2,1)
     if history.history.get('accuracy'):
-        ax1.plot(history.history['accuracy'], 'o-',label='Train')
+        ax1.plot(np.array(history.epoch)+1, history.history['accuracy'], 'o-',label='Train')
     if history.history.get('val_accuracy'):
-        ax1.plot(history.history['val_accuracy'], 'o-', label='Test')
+        ax1.plot(np.array(history.epoch)+1, history.history['val_accuracy'], 'o-', label='Test')
     ax1.set_title('Model accuracy')
     ax1.set_ylabel('Accuracy')
     ax1.set_xlabel('Epoch') 
@@ -23,9 +23,9 @@ def plot_loss_accuracy(history):
     # Plot training & validation loss values
     ax2 = plt.subplot(1,2,2)
     if history.history.get('loss'):
-        ax2.plot(history.history['loss'], 'o-', label='Train')
+        ax2.plot(np.array(history.epoch)+1, history.history['loss'], 'o-', label='Train')
     if history.history.get('val_loss'):
-        ax2.plot(history.history['val_loss'], 'o-',  label='Test')
+        ax2.plot(np.array(history.epoch)+1, history.history['val_loss'], 'o-',  label='Test')
     ax2.set_title('Model loss')
     ax2.set_ylabel('Loss')
     ax2.set_xlabel('Epoch')
