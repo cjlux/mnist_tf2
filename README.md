@@ -13,7 +13,7 @@ Le notebook aborde ensuite la construction d'un réseau dense à 2 couches, perm
 
 En cas de blocage pour compléter les notebook 'à trous', les notebooks `Sol_TP1_MNIST.ipynb` et `Sol_TP2_MNIST.ipynb` suggèrent des propositions de solution pour TP1  et TP2. Les solutions sont présentées exécutées dans les notebooks `Sol_TP1_MNIST-full.ipynb` et `Sol_TP2_MNIST-fuul.ipynb`. 
 
-À la suite de ces TP, tu pourras créer tes propres images de chiffres écrits à lam ain pour tester les performances des réseaux entraînés.
+À la suite de ces TP, tu pourras créer tes propres images de chiffres écrits à la main pour tester les performances des réseaux entraînés.
 
 
 ## Principaux points abordés dans les TP
