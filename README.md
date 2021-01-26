@@ -4,19 +4,16 @@ Hand-made digits recognition with tensorflow2
 
 Cette activité propose la programmation, l'entraînement et l'évaluation de réseaux de neurones dédiés à la reconnaissance de chiffres écrits à la main provenant de la banque de données MNIST.
 
-Plusieurs TP sont proposés sous forme de notebooks jupyter 'à trous', en fonction de votre expérience en *Machine Learning* (ML) :
+Deux TP sont proposés sous forme de notebooks jupyter 'à trous' :
 
-- `TP1_MNIST_dense.ipynb` : s'adresse plutôt à des débutants en ML avec des rappels sur des concepts de base utiles en ML (neurone artificiel, fonctions d'activations, *one-hot coding*, catégorisation des labels, entraînement du réseau, affichage de la matrice de confusion...).
-Le notebook aborde la construction d'un réseau dense à 2 couches, permettant une précision de reconnaissance des chifres MNIST qui plafonne vers 98 %.
+- `TP1_MNIST_dense.ipynb` : présente des rappels sur des concepts de base utiles en ML (neurone artificiel, fonctions d'activations, *one-hot coding*, catégorisation des labels, entraînement du réseau, affichage de la matrice de confusion...).
+Le notebook aborde ensuite la construction d'un réseau dense à 2 couches, permettant de reconnaissance les chifres MNIST avec une précision qui voisine de 98 %.
 
-- `TP2_MNIST_dense_overfit.ipynb` : notebook complément au TP1 montrant comment utiliser le *callback* tensorflow *Early Stopping* pour éviter le sur-entraînement.
+- `TP2_MNIST_convol.ipynb` : aborde la construction d'un réseau convolutionnel pour la reconnaissance des chifres MNIST qui peut atteindre 99 % de réusssite.
 
-- `TP2_MNIST_convol.ipynb` : introduit un niveau plus avancé, avec la construction d'un réseau convolutionnel pour la reconnaissance des chifres MNIST qui peut atteindre 99 % de réusssite.
+En cas de blocage pour compléter les notebook 'à trous', les notebooks `Sol_TP1_MNIST.ipynb` et `Sol_TP2_MNIST.ipynb` suggèrent des propositions de solution pour TP1  et TP2. Les solutions sont présentées exécutées dans les notebooks `Sol_TP1_MNIST-full.ipynb` et `Sol_TP2_MNIST-fuul.ipynb`. 
 
-En cas de blocage pour compléter les notebook 'à trous', le répertoire `solutions` contient des propositions de solution pour TP1  et TP2.
-
-
-À la suite de ces TP, tu pourras créer un service ROS qui utilise un réseau de neurones entraîné à reconnaître les chiffres ('1' ou '2') écrits sur les cube pris en photo par la caméra du bras manipulateur utilisé.
+À la suite de ces TP, tu pourras créer tes propres images de chiffres écrits à lam ain pour tester les performances des réseaux entraînés.
 
 
 ## Principaux points abordés dans les TP
@@ -30,5 +27,5 @@ En cas de blocage pour compléter les notebook 'à trous', le répertoire `solut
 - entraînement des réseaux,
 - courbes de précision et de perte,
 - matrice de confusion,
-- utilisation d'un `callback` tensorflow `Early Stopping` pour éviter le sur-entraînement.
+- `callback` tensorflow `Early Stopping` pour éviter le sur-entraînement.
 - exploitation des réseaux avec des chiffres manuscrits hors banque MNIST.

@@ -41,15 +41,18 @@ def plot_images(image_array, r, L, C):
         plt.subplot(L, C, i+1)
         plt.imshow(image_array[r+i], cmap='gray')
         plt.xticks([]); plt.yticks([])
- 
-def show_cm_mnist(target, results, classes):
-    # y : actual answers (vector of int)
-    # results : the trained network answers (array of 'one-hot' coded vectors)
-    # classes : the liste of possible answers
-    predicted = np.argmax(results, axis=-1) # tableau d'entiers entre 0 et 9 (argmax de chaque vecteur 'one-shot')
 
+
+def show_cm_mnist(target, results, classes):
+    # target  : the actual labels (one-hot format)
+    # results : the labels computed by the trained network (one-hot format)
+    # classes : list of possible label values
+    predicted = np.argmax(results, axis=-1) # tableau d'entiers entre 0 et 9 
     cm = confusion_matrix(target, predicted)
     df_cm = pd.DataFrame(cm, index=classes, columns=classes)
     plt.figure(figsize=(11,9))
-    heatmap(df_cm, annot=True);
+    heatmap(df_cm, annot=True, cbar=False, fmt="3d")
+    plt.xlabel('actual label')
+    plt.ylabel('predicted label')
+    plt.show()
     
