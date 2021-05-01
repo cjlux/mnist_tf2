@@ -1,6 +1,8 @@
 # mnist_tf2
 
-Hand-made digits recognition with tensorflow2
+<img src='./img/CC-BY-SA.jpeg' width=100 style="vertical-align:middle; float:left"> &emsp; jean-luc.charles@ensam.eu 
+
+## Reconnaissance de chiffres écrits à la main
 
 Cette activité propose la programmation, l'entraînement et l'évaluation de réseaux de neurones dédiés à la reconnaissance de chiffres écrits à la main provenant de la banque de données MNIST.
 
@@ -29,3 +31,12 @@ En cas de blocage pour compléter les notebook 'à trous', les notebooks `Sol_TP
 - matrice de confusion,
 - `callback` tensorflow `Early Stopping` pour éviter le sur-entraînement.
 - exploitation des réseaux avec des chiffres manuscrits hors banque MNIST.
+
+
+# Acquis d'apprentissage
+
+À l'issue de cette activité, tu sausras :
+- télécharger les images de la banque MNIST avec le module Python keras.
+- développer et évaluer des réseaux de neurones denses et convolutifs dédiés à la reconnaissance des images MNIST, en utilisant les modules Python tensorflow2/keras.
+- utiliser tes propres images de chiffres pour évaluer les réponse d'un réseau de neurones entraîné avec la banque MNIST.
+
