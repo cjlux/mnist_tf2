@@ -35,8 +35,9 @@ En cas de blocage pour compléter les notebook 'à trous', les notebooks `Sol_TP
 
 # Acquis d'apprentissage
 
-À l'issue de cette activité, tu sausras :
-- télécharger les images de la banque MNIST avec le module Python keras.
-- développer et évaluer des réseaux de neurones denses et convolutifs dédiés à la reconnaissance des images MNIST, en utilisant les modules Python tensorflow2/keras.
-- utiliser tes propres images de chiffres pour évaluer les réponse d'un réseau de neurones entraîné avec la banque MNIST.
+À l'issue de cette activité, tu sauras :
+- Télécharger les images de la banque MNIST avec le module Python keras.
+- À la suite du TP1, tu sauras utiliser les modules tensorflow2 & keras pour développer et évaluer un réseau de neurone dense dédié à la reconnaissance des images MNIST.
+- À la suite du TP2, tu sauras utiliser les modules tensorflow2 & keras pour développer et évaluer un réseau de neurone convolutif dédié à la reconnaissance des images MNIST.
+- Utiliser tes propres images de chiffres écrits à la main pour évaluer les réponse d'un réseau de neurones entraîné avec la banque MNIST.
 
