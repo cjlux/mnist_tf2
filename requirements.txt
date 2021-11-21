@@ -1,14 +1,15 @@
 # requirements based on Ubuntu 20 with python3.8.5 and ros-noetic already installed
-numpy==1.19.4
-scipy==1.5.2
-tensorflow==2.4.0
-matplotlib==3.3.3
-pandas==1.2.2
+numpy==1.19.5
+scipy==1.6.2
+tensorflow==2.4.1
+matplotlib==3.3.4
+pandas==1.2.4
 jupyter==1.0.0
-opencv-python==4.4.0
-testresources
-sklearn
-seaborn
-pydot
+opencv-python==4.5.1.48
+testresources==2.0.1
+scikit-learn==0.24.2
+scikit-image==0.18.1
+seaborn==0.11.1
+pydot==1.4.2
 
 
